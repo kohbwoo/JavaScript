@@ -10,7 +10,11 @@ function compareNumber(i, j){
 }
 
 for(let j = 0; j < a.length; ++j){
-    console.log(a[j] / 2)
+    if (parseInt(a[j]) % parseInt(2) === true){
+        a.splice(j, 1)
+        
+    }
+    
 }
 
 console.log(a);
