@@ -10,3 +10,5 @@ console.log(a)
 avg = (sum/100)
 
 console.log(avg.toFixed(1)) //소수점 첫째자리까지 출력
+
+//Math.floor(Math.random() * (MAX - MIN + 1) + MIN);

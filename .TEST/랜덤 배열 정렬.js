@@ -15,3 +15,4 @@ for (let i = 0; i < 100; i++){
     console.log(a[i])
 }
 
+//Math.floor(Math.random() * (MAX - MIN + 1) + MIN);

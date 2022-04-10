@@ -8,9 +8,9 @@ let add = function(a,b){
     return a+ b;
 }
 
-let muntiply = function(a,b){
+let multiply = function(a,b){
     return a*b;
 }
 
 test1(add);
-test1(muntiply);
+test1(multiply);

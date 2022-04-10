@@ -7,9 +7,9 @@ function add(a, b){
     return a+ b;
 }
 
-function muntiply(a,b){
+function multiply(a,b){
     return a * b;
 }
 
 test1(add);
-test1(muntiply)
+test1(multiply)
